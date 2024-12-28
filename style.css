@@ -1,7 +1,18 @@
-/* div#timer {
-  display: flex;
-  align-items: center;
-} */
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 12px;
+  padding: 0;
+  text-align: center;
+  direction: rtl;
+  font-size: 4px;
+  font-weight: 100;
+}
+input:focus {
+  outline: #4287f5;
+}
 button {
   display: block;
   margin: auto;
