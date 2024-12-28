@@ -1,0 +1,34 @@
+/* div#timer {
+  display: flex;
+  align-items: center;
+} */
+button {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 8px;
+  cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(#4287f5, #152c52);
+}
+.timer {
+  cursor: not-allowed;
+  background-image: linear-gradient(#82aef5, #3e4c63);
+  animation: breathe 1s ease-in-out infinite;
+}
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
